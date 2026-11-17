@@ -6,4 +6,4 @@ index/
 *.npz
 .DS_Store
 dist/
-build/
+build/*.egg-info/

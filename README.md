@@ -150,8 +150,8 @@ differ, so the demo is representative of the deployed behaviour.
 
 ## 6. Evaluation
 
-`eval/questions.json` holds **17 questions + 2 predictor checks**, each marked in
-advance with its expected behaviour:
+`eval/questions.json` holds **17 cases** (7 answerable + 5 refusal + 3 unsafe +
+2 predictor), each marked in advance with its expected behaviour:
 
 - **`answerable`** (7): must return a grounded answer that cites a real source
   and contains the correct figure.

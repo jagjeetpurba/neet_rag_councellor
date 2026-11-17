@@ -38,7 +38,7 @@ ASSUMED_GPU = "single NVIDIA RTX 6000 Ada-class workstation GPU, 48 GB VRAM"
 ACTUAL_RUNTIME = "Apple M2, 16 GB unified memory (CPU + Metal), 4-bit quant"
 
 # --- Retrieval knobs -------------------------------------------------------
-TOP_K = int(os.environ.get("NEET_TOP_K", "6"))
+TOP_K = int(os.environ.get("NEET_TOP_K", "12"))
 # Cosine similarity below this -> refuse ("not in the sources") before the LLM.
 MIN_SIMILARITY = float(os.environ.get("NEET_MIN_SIM", "0.30"))
 

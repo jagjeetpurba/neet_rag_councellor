@@ -75,6 +75,7 @@ def run_evaluation(index: VectorIndex | None = None) -> dict:
                 state=p.get("state"),
                 course=p.get("course"),
                 year=p.get("year"),
+                quota=p.get("quota"),
             )
             n_opt = len(pred.options)
             if q.get("expect_empty"):

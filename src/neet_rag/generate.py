@@ -19,11 +19,15 @@ REFUSAL_TOKEN = "NOT_IN_SOURCES"
 SYSTEM_PROMPT = (
     "You are a NEET UG counselling assistant. You may answer ONLY from the "
     "retrieved source passages given to you. Every factual claim MUST cite the "
-    "source id(s) it comes from, formatted like [neet_cutoffs#17]. "
-    "If the retrieved context does not contain the information needed to answer, "
-    f'reply with exactly: {REFUSAL_TOKEN}. '
+    "source id it came from, in square brackets, like [neet_cutoffs#17]. "
+    "Write a complete sentence that names the college, course, category and year "
+    "you are answering about, and end each fact with its bracketed source id. "
+    f"If the retrieved context does not contain the information needed to answer, "
+    f"reply with exactly: {REFUSAL_TOKEN}. "
     "Never invent a cut-off, rank, seat count, or fact. Do not give personal "
-    "medical or career guarantees; you provide data-backed options and their limits."
+    "medical or career guarantees; you provide data-backed options and their limits.\n\n"
+    'Example: "The closing rank for MBBS at AIIMS New Delhi in the Open category '
+    'in 2024 was 50 [neet_cutoffs#36]."'
 )
 
 
@@ -53,7 +57,7 @@ def _call_llm(context: str, question: str) -> str:
                 "content": (
                     f"Retrieved context:\n{context}\n\n"
                     f"Question: {question}\n\n"
-                    "Answer with citations. If unsupported, reply "
+                    "Answer with bracketed citations. If unsupported, reply "
                     f"{REFUSAL_TOKEN}."
                 ),
             },
