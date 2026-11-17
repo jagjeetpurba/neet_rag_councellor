@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEET RAG Counsellor</title>
+  <style>
+    :root {
+      --fg: #e8e6e3; --muted: #9a948a; --accent: #4f9d69;
+      --card: #1c1b19; --border: #33302b; --red: #e06c6c; --green: #4f9d69;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+           background: transparent; color: var(--fg); padding: 24px; }
+    h1 { font-size: 20px; margin: 0 0 4px; }
+    .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+    .panel { background: var(--card); border: 1px solid var(--border);
+             border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+    label { font-size: 12px; color: var(--muted); display: block; margin: 8px 0 2px; }
+    input, select, textarea { width: 100%; padding: 8px; border-radius: 6px;
+             border: 1px solid var(--border); background: #12110f; color: var(--fg);
+             font-size: 14px; font-family: inherit; }
+    button { margin-top: 12px; padding: 8px 14px; border: none; border-radius: 6px;
+             background: var(--accent); color: #0f0f0d; font-weight: 600; cursor: pointer; }
+    button:hover { filter: brightness(1.1); }
+    .answer { margin-top: 12px; padding: 12px; border-radius: 8px; white-space: pre-wrap;
+              font-size: 14px; line-height: 1.5; border: 1px solid var(--border); }
+    .answer.refused { border-color: var(--red); background: rgba(224,108,108,.08); }
+    .answer.grounded { border-color: var(--green); background: rgba(79,157,105,.06); }
+    .cites { font-size: 12px; color: var(--green); margin-top: 6px; }
+    .warn { font-size: 12px; color: #d9a441; margin-top: 6px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 10px; }
+    th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 500; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .grid input, .grid select { margin-top: 2px; }
+  </style>
+</head>
+<body>
+  <h1>NEET RAG Counsellor</h1>
+  <div class="sub">Private, locally hosted RAG · Qwen2.5-7B + nomic-embed-text · no data leaves this machine</div>
+
+  <div class="panel">
+    <label for="q">Ask a question about NEET cut-offs / seat matrix</label>
+    <textarea id="q" rows="2" placeholder="e.g. What was the closing rank for MBBS at AIIMS New Delhi in the Open category in 2024?"></textarea>
+    <button onclick="ask()">Ask</button>
+    <div id="ans" class="answer" style="display:none"></div>
+    <div id="cites" class="cites" style="display:none"></div>
+    <div id="warn" class="warn" style="display:none"></div>
+  </div>
+
+  <div class="panel">
+    <div class="grid">
+      <div><label>Rank</label><input id="rank" type="number" value="2000"></div>
+      <div><label>Category</label><select id="category">
+        <option>Open</option><option>OBC</option><option>SC</option><option>ST</option><option>EWS</option>
+      </select></div>
+      <div><label>State (optional)</label><input id="state" placeholder="West Bengal"></div>
+      <div><label>Course (optional)</label><select id="course"><option value="">any</option><option>MBBS</option><option>BDS</option></select></div>
+      <div><label>Year (optional)</label><input id="year" type="number" placeholder="2024"></div>
+      <div><label>Quota (optional)</label><select id="quota"><option value="">any</option><option>AIQ</option><option>State</option></select></div>
+    </div>
+    <button onclick="predict()">Predict options</button>
+    <div id="pred"></div>
+  </div>
+
+  <script>
+    async function api(path, body) {
+      const r = await fetch(path, { method: 'POST', headers: {'content-type':'application/json'},
+        body: JSON.stringify(body) });
+      return r.json();
+    }
+    function showAnswer(resp) {
+      const a = document.getElementById('ans'), c = document.getElementById('cites'),
+            w = document.getElementById('warn');
+      a.style.display = c.style.display = w.style.display = 'none';
+      a.textContent = resp.answer;
+      a.className = 'answer ' + (resp.refused ? 'refused' : 'grounded');
+      a.style.display = 'block';
+      if (resp.citations && resp.citations.length) {
+        c.textContent = 'Citations: ' + resp.citations.join(', ');
+        c.style.display = 'block';
+      }
+      if (resp.refused && resp.reason) { w.textContent = 'Refused: ' + resp.reason; w.style.display = 'block'; }
+    }
+    async function ask() {
+      const q = document.getElementById('q').value.trim();
+      if (!q) return;
+      const resp = await api('/ask', { question: q });
+      showAnswer(resp);
+    }
+    async function predict() {
+      const body = { rank: +document.getElementById('rank').value,
+        category: document.getElementById('category').value };
+      const state = document.getElementById('state').value.trim();
+      const course = document.getElementById('course').value;
+      const year = document.getElementById('year').value.trim();
+      const quota = document.getElementById('quota').value;
+      if (state) body.state = state;
+      if (course) body.course = course;
+      if (year) body.year = +year;
+      if (quota) body.quota = quota;
+      const r = await api('/predict', body);
+      const el = document.getElementById('pred');
+      let html = '';
+      if (r.warnings && r.warnings.length) html += '<div class="warn" style="display:block">' + r.warnings.join('<br>') + '</div>';
+      if (r.options && r.options.length) {
+        html += '<table><tr><th>kind</th><th>college</th><th>course</th><th>quota</th><th>category</th><th>year</th><th>opening</th><th>closing</th><th>seats</th><th>source</th></tr>';
+        for (const o of r.options)
+          html += `<tr><td>${o.kind}</td><td>${o.college}</td><td>${o.course}</td><td>${o.quota}</td><td>${o.category}</td><td>${o.year}</td><td>${o.opening_rank}</td><td>${o.closing_rank}</td><td>${o.seats}</td><td>${o.source_id}</td></tr>`;
+        html += '</table>';
+      } else if (!(r.warnings && r.warnings.length)) {
+        html = '<div class="answer refused" style="display:block">No options found in the sources.</div>';
+      }
+      el.innerHTML = html;
+    }
+  </script>
+</body>
+</html>

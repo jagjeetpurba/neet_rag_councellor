@@ -1,0 +1,201 @@
+source_id,college,course,quota,state,category,year,opening_rank,closing_rank,seats
+neet_cutoffs#1,AIIMS Kalyani,BDS,AIQ,West Bengal,EWS,2023,27877,37852,50
+neet_cutoffs#2,AIIMS Kalyani,BDS,AIQ,West Bengal,EWS,2024,27017,36749,85
+neet_cutoffs#3,AIIMS Kalyani,BDS,AIQ,West Bengal,OBC,2023,35031,45963,15
+neet_cutoffs#4,AIIMS Kalyani,BDS,AIQ,West Bengal,OBC,2024,35541,44625,120
+neet_cutoffs#5,AIIMS Kalyani,BDS,AIQ,West Bengal,Open,2023,21113,27037,15
+neet_cutoffs#6,AIIMS Kalyani,BDS,AIQ,West Bengal,Open,2024,19209,26250,85
+neet_cutoffs#7,AIIMS Kalyani,BDS,AIQ,West Bengal,SC,2023,56160,70297,50
+neet_cutoffs#8,AIIMS Kalyani,BDS,AIQ,West Bengal,SC,2024,51461,68250,50
+neet_cutoffs#9,AIIMS Kalyani,BDS,AIQ,West Bengal,ST,2023,71651,91927,120
+neet_cutoffs#10,AIIMS Kalyani,BDS,AIQ,West Bengal,ST,2024,71372,89250,15
+neet_cutoffs#11,AIIMS Kalyani,MBBS,AIQ,West Bengal,EWS,2023,11212,15140,120
+neet_cutoffs#12,AIIMS Kalyani,MBBS,AIQ,West Bengal,EWS,2024,11211,14699,50
+neet_cutoffs#13,AIIMS Kalyani,MBBS,AIQ,West Bengal,OBC,2023,14093,18385,85
+neet_cutoffs#14,AIIMS Kalyani,MBBS,AIQ,West Bengal,OBC,2024,13497,17850,30
+neet_cutoffs#15,AIIMS Kalyani,MBBS,AIQ,West Bengal,Open,2023,7892,10815,15
+neet_cutoffs#16,AIIMS Kalyani,MBBS,AIQ,West Bengal,Open,2024,8152,10500,120
+neet_cutoffs#17,AIIMS Kalyani,MBBS,AIQ,West Bengal,SC,2023,22479,28119,30
+neet_cutoffs#18,AIIMS Kalyani,MBBS,AIQ,West Bengal,SC,2024,19879,27300,50
+neet_cutoffs#19,AIIMS Kalyani,MBBS,AIQ,West Bengal,ST,2023,28406,36771,50
+neet_cutoffs#20,AIIMS Kalyani,MBBS,AIQ,West Bengal,ST,2024,28308,35700,50
+neet_cutoffs#21,AIIMS New Delhi,BDS,AIQ,Delhi,EWS,2023,140,180,15
+neet_cutoffs#22,AIIMS New Delhi,BDS,AIQ,Delhi,EWS,2024,143,175,15
+neet_cutoffs#23,AIIMS New Delhi,BDS,AIQ,Delhi,OBC,2023,169,218,30
+neet_cutoffs#24,AIIMS New Delhi,BDS,AIQ,Delhi,OBC,2024,158,212,30
+neet_cutoffs#25,AIIMS New Delhi,BDS,AIQ,Delhi,Open,2023,100,128,120
+neet_cutoffs#26,AIIMS New Delhi,BDS,AIQ,Delhi,Open,2024,101,125,120
+neet_cutoffs#27,AIIMS New Delhi,BDS,AIQ,Delhi,SC,2023,258,334,120
+neet_cutoffs#28,AIIMS New Delhi,BDS,AIQ,Delhi,SC,2024,244,325,30
+neet_cutoffs#29,AIIMS New Delhi,BDS,AIQ,Delhi,ST,2023,319,437,120
+neet_cutoffs#30,AIIMS New Delhi,BDS,AIQ,Delhi,ST,2024,333,425,50
+neet_cutoffs#31,AIIMS New Delhi,MBBS,AIQ,Delhi,EWS,2023,52,72,120
+neet_cutoffs#32,AIIMS New Delhi,MBBS,AIQ,Delhi,EWS,2024,51,70,120
+neet_cutoffs#33,AIIMS New Delhi,MBBS,AIQ,Delhi,OBC,2023,63,87,120
+neet_cutoffs#34,AIIMS New Delhi,MBBS,AIQ,Delhi,OBC,2024,63,85,15
+neet_cutoffs#35,AIIMS New Delhi,MBBS,AIQ,Delhi,Open,2023,38,51,30
+neet_cutoffs#36,AIIMS New Delhi,MBBS,AIQ,Delhi,Open,2024,37,50,15
+neet_cutoffs#37,AIIMS New Delhi,MBBS,AIQ,Delhi,SC,2023,101,133,15
+neet_cutoffs#38,AIIMS New Delhi,MBBS,AIQ,Delhi,SC,2024,96,130,120
+neet_cutoffs#39,AIIMS New Delhi,MBBS,AIQ,Delhi,ST,2023,133,175,120
+neet_cutoffs#40,AIIMS New Delhi,MBBS,AIQ,Delhi,ST,2024,124,170,30
+neet_cutoffs#41,Government Medical College Cuttack,BDS,State,Odisha,EWS,2023,38387,50470,120
+neet_cutoffs#42,Government Medical College Cuttack,BDS,State,Odisha,EWS,2024,39783,49000,120
+neet_cutoffs#43,Government Medical College Cuttack,BDS,State,Odisha,OBC,2023,47156,61285,50
+neet_cutoffs#44,Government Medical College Cuttack,BDS,State,Odisha,OBC,2024,43372,59500,15
+neet_cutoffs#45,Government Medical College Cuttack,BDS,State,Odisha,Open,2023,26930,36050,30
+neet_cutoffs#46,Government Medical College Cuttack,BDS,State,Odisha,Open,2024,28069,35000,50
+neet_cutoffs#47,Government Medical College Cuttack,BDS,State,Odisha,SC,2023,74980,93730,30
+neet_cutoffs#48,Government Medical College Cuttack,BDS,State,Odisha,SC,2024,69390,91000,15
+neet_cutoffs#49,Government Medical College Cuttack,BDS,State,Odisha,ST,2023,91546,122570,15
+neet_cutoffs#50,Government Medical College Cuttack,BDS,State,Odisha,ST,2024,93229,119000,50
+neet_cutoffs#51,Government Medical College Cuttack,MBBS,State,Odisha,EWS,2023,15424,20188,15
+neet_cutoffs#52,Government Medical College Cuttack,MBBS,State,Odisha,EWS,2024,14865,19600,120
+neet_cutoffs#53,Government Medical College Cuttack,MBBS,State,Odisha,OBC,2023,19179,24514,120
+neet_cutoffs#54,Government Medical College Cuttack,MBBS,State,Odisha,OBC,2024,19422,23800,15
+neet_cutoffs#55,Government Medical College Cuttack,MBBS,State,Odisha,Open,2023,11423,14420,15
+neet_cutoffs#56,Government Medical College Cuttack,MBBS,State,Odisha,Open,2024,10553,14000,85
+neet_cutoffs#57,Government Medical College Cuttack,MBBS,State,Odisha,SC,2023,30687,37492,30
+neet_cutoffs#58,Government Medical College Cuttack,MBBS,State,Odisha,SC,2024,29744,36400,15
+neet_cutoffs#59,Government Medical College Cuttack,MBBS,State,Odisha,ST,2023,35712,49028,50
+neet_cutoffs#60,Government Medical College Cuttack,MBBS,State,Odisha,ST,2024,34460,47600,30
+neet_cutoffs#61,Grant Medical College Mumbai,BDS,State,Maharashtra,EWS,2023,5208,6489,30
+neet_cutoffs#62,Grant Medical College Mumbai,BDS,State,Maharashtra,EWS,2024,4553,6300,30
+neet_cutoffs#63,Grant Medical College Mumbai,BDS,State,Maharashtra,OBC,2023,5903,7879,30
+neet_cutoffs#64,Grant Medical College Mumbai,BDS,State,Maharashtra,OBC,2024,6092,7650,50
+neet_cutoffs#65,Grant Medical College Mumbai,BDS,State,Maharashtra,Open,2023,3581,4635,30
+neet_cutoffs#66,Grant Medical College Mumbai,BDS,State,Maharashtra,Open,2024,3435,4500,30
+neet_cutoffs#67,Grant Medical College Mumbai,BDS,State,Maharashtra,SC,2023,8989,12051,85
+neet_cutoffs#68,Grant Medical College Mumbai,BDS,State,Maharashtra,SC,2024,9400,11700,15
+neet_cutoffs#69,Grant Medical College Mumbai,BDS,State,Maharashtra,ST,2023,12780,15759,50
+neet_cutoffs#70,Grant Medical College Mumbai,BDS,State,Maharashtra,ST,2024,12389,15300,120
+neet_cutoffs#71,Grant Medical College Mumbai,MBBS,State,Maharashtra,EWS,2023,2126,2595,15
+neet_cutoffs#72,Grant Medical College Mumbai,MBBS,State,Maharashtra,EWS,2024,1852,2520,85
+neet_cutoffs#73,Grant Medical College Mumbai,MBBS,State,Maharashtra,OBC,2023,2522,3151,30
+neet_cutoffs#74,Grant Medical College Mumbai,MBBS,State,Maharashtra,OBC,2024,2390,3060,120
+neet_cutoffs#75,Grant Medical College Mumbai,MBBS,State,Maharashtra,Open,2023,1420,1854,15
+neet_cutoffs#76,Grant Medical College Mumbai,MBBS,State,Maharashtra,Open,2024,1426,1800,30
+neet_cutoffs#77,Grant Medical College Mumbai,MBBS,State,Maharashtra,SC,2023,3942,4820,50
+neet_cutoffs#78,Grant Medical College Mumbai,MBBS,State,Maharashtra,SC,2024,3442,4680,120
+neet_cutoffs#79,Grant Medical College Mumbai,MBBS,State,Maharashtra,ST,2023,4620,6303,15
+neet_cutoffs#80,Grant Medical College Mumbai,MBBS,State,Maharashtra,ST,2024,4895,6120,15
+neet_cutoffs#81,IPGMER Kolkata,BDS,State,West Bengal,EWS,2023,6926,9372,30
+neet_cutoffs#82,IPGMER Kolkata,BDS,State,West Bengal,EWS,2024,6952,9099,15
+neet_cutoffs#83,IPGMER Kolkata,BDS,State,West Bengal,OBC,2023,8581,11381,15
+neet_cutoffs#84,IPGMER Kolkata,BDS,State,West Bengal,OBC,2024,8069,11050,120
+neet_cutoffs#85,IPGMER Kolkata,BDS,State,West Bengal,Open,2023,5084,6695,85
+neet_cutoffs#86,IPGMER Kolkata,BDS,State,West Bengal,Open,2024,5092,6500,15
+neet_cutoffs#87,IPGMER Kolkata,BDS,State,West Bengal,SC,2023,12796,17407,15
+neet_cutoffs#88,IPGMER Kolkata,BDS,State,West Bengal,SC,2024,13771,16900,120
+neet_cutoffs#89,IPGMER Kolkata,BDS,State,West Bengal,ST,2023,16447,22763,30
+neet_cutoffs#90,IPGMER Kolkata,BDS,State,West Bengal,ST,2024,17269,22100,30
+neet_cutoffs#91,IPGMER Kolkata,MBBS,State,West Bengal,EWS,2023,2767,3749,50
+neet_cutoffs#92,IPGMER Kolkata,MBBS,State,West Bengal,EWS,2024,2621,3639,85
+neet_cutoffs#93,IPGMER Kolkata,MBBS,State,West Bengal,OBC,2023,3520,4552,120
+neet_cutoffs#94,IPGMER Kolkata,MBBS,State,West Bengal,OBC,2024,3432,4420,30
+neet_cutoffs#95,IPGMER Kolkata,MBBS,State,West Bengal,Open,2023,1990,2678,30
+neet_cutoffs#96,IPGMER Kolkata,MBBS,State,West Bengal,Open,2024,1875,2600,120
+neet_cutoffs#97,IPGMER Kolkata,MBBS,State,West Bengal,SC,2023,5493,6962,120
+neet_cutoffs#98,IPGMER Kolkata,MBBS,State,West Bengal,SC,2024,5509,6760,15
+neet_cutoffs#99,IPGMER Kolkata,MBBS,State,West Bengal,ST,2023,6971,9105,120
+neet_cutoffs#100,IPGMER Kolkata,MBBS,State,West Bengal,ST,2024,6711,8840,85
+neet_cutoffs#101,JIPMER Puducherry,BDS,AIQ,Puducherry,EWS,2023,2649,3244,30
+neet_cutoffs#102,JIPMER Puducherry,BDS,AIQ,Puducherry,EWS,2024,2503,3150,15
+neet_cutoffs#103,JIPMER Puducherry,BDS,AIQ,Puducherry,OBC,2023,2992,3939,85
+neet_cutoffs#104,JIPMER Puducherry,BDS,AIQ,Puducherry,OBC,2024,2816,3825,30
+neet_cutoffs#105,JIPMER Puducherry,BDS,AIQ,Puducherry,Open,2023,1885,2317,50
+neet_cutoffs#106,JIPMER Puducherry,BDS,AIQ,Puducherry,Open,2024,1652,2250,30
+neet_cutoffs#107,JIPMER Puducherry,BDS,AIQ,Puducherry,SC,2023,4435,6025,85
+neet_cutoffs#108,JIPMER Puducherry,BDS,AIQ,Puducherry,SC,2024,4793,5850,85
+neet_cutoffs#109,JIPMER Puducherry,BDS,AIQ,Puducherry,ST,2023,5940,7879,30
+neet_cutoffs#110,JIPMER Puducherry,BDS,AIQ,Puducherry,ST,2024,5780,7650,15
+neet_cutoffs#111,JIPMER Puducherry,MBBS,AIQ,Puducherry,EWS,2023,1047,1297,50
+neet_cutoffs#112,JIPMER Puducherry,MBBS,AIQ,Puducherry,EWS,2024,1023,1260,30
+neet_cutoffs#113,JIPMER Puducherry,MBBS,AIQ,Puducherry,OBC,2023,1266,1575,30
+neet_cutoffs#114,JIPMER Puducherry,MBBS,AIQ,Puducherry,OBC,2024,1165,1530,85
+neet_cutoffs#115,JIPMER Puducherry,MBBS,AIQ,Puducherry,Open,2023,742,927,120
+neet_cutoffs#116,JIPMER Puducherry,MBBS,AIQ,Puducherry,Open,2024,732,900,120
+neet_cutoffs#117,JIPMER Puducherry,MBBS,AIQ,Puducherry,SC,2023,1841,2410,15
+neet_cutoffs#118,JIPMER Puducherry,MBBS,AIQ,Puducherry,SC,2024,1841,2340,85
+neet_cutoffs#119,JIPMER Puducherry,MBBS,AIQ,Puducherry,ST,2023,2291,3151,50
+neet_cutoffs#120,JIPMER Puducherry,MBBS,AIQ,Puducherry,ST,2024,2443,3060,30
+neet_cutoffs#121,King George's Medical University,BDS,State,Uttar Pradesh,EWS,2023,17185,23072,50
+neet_cutoffs#122,King George's Medical University,BDS,State,Uttar Pradesh,EWS,2024,16222,22400,15
+neet_cutoffs#123,King George's Medical University,BDS,State,Uttar Pradesh,OBC,2023,21593,28016,120
+neet_cutoffs#124,King George's Medical University,BDS,State,Uttar Pradesh,OBC,2024,19659,27200,15
+neet_cutoffs#125,King George's Medical University,BDS,State,Uttar Pradesh,Open,2023,12780,16480,15
+neet_cutoffs#126,King George's Medical University,BDS,State,Uttar Pradesh,Open,2024,12933,16000,15
+neet_cutoffs#127,King George's Medical University,BDS,State,Uttar Pradesh,SC,2023,32749,42848,120
+neet_cutoffs#128,King George's Medical University,BDS,State,Uttar Pradesh,SC,2024,34001,41600,120
+neet_cutoffs#129,King George's Medical University,BDS,State,Uttar Pradesh,ST,2023,43212,56032,50
+neet_cutoffs#130,King George's Medical University,BDS,State,Uttar Pradesh,ST,2024,41628,54400,120
+neet_cutoffs#131,King George's Medical University,MBBS,State,Uttar Pradesh,EWS,2023,6764,9228,30
+neet_cutoffs#132,King George's Medical University,MBBS,State,Uttar Pradesh,EWS,2024,6920,8960,15
+neet_cutoffs#133,King George's Medical University,MBBS,State,Uttar Pradesh,OBC,2023,9046,11206,30
+neet_cutoffs#134,King George's Medical University,MBBS,State,Uttar Pradesh,OBC,2024,8495,10880,30
+neet_cutoffs#135,King George's Medical University,MBBS,State,Uttar Pradesh,Open,2023,5283,6592,120
+neet_cutoffs#136,King George's Medical University,MBBS,State,Uttar Pradesh,Open,2024,4877,6400,120
+neet_cutoffs#137,King George's Medical University,MBBS,State,Uttar Pradesh,SC,2023,12635,17139,85
+neet_cutoffs#138,King George's Medical University,MBBS,State,Uttar Pradesh,SC,2024,13010,16640,15
+neet_cutoffs#139,King George's Medical University,MBBS,State,Uttar Pradesh,ST,2023,17383,22412,50
+neet_cutoffs#140,King George's Medical University,MBBS,State,Uttar Pradesh,ST,2024,17151,21760,120
+neet_cutoffs#141,Maulana Azad Medical College,BDS,AIQ,Delhi,EWS,2023,3478,4326,85
+neet_cutoffs#142,Maulana Azad Medical College,BDS,AIQ,Delhi,EWS,2024,3405,4200,50
+neet_cutoffs#143,Maulana Azad Medical College,BDS,AIQ,Delhi,OBC,2023,4202,5253,15
+neet_cutoffs#144,Maulana Azad Medical College,BDS,AIQ,Delhi,OBC,2024,4097,5100,15
+neet_cutoffs#145,Maulana Azad Medical College,BDS,AIQ,Delhi,Open,2023,2329,3090,85
+neet_cutoffs#146,Maulana Azad Medical College,BDS,AIQ,Delhi,Open,2024,2347,3000,120
+neet_cutoffs#147,Maulana Azad Medical College,BDS,AIQ,Delhi,SC,2023,6515,8034,30
+neet_cutoffs#148,Maulana Azad Medical College,BDS,AIQ,Delhi,SC,2024,5988,7800,30
+neet_cutoffs#149,Maulana Azad Medical College,BDS,AIQ,Delhi,ST,2023,8020,10506,50
+neet_cutoffs#150,Maulana Azad Medical College,BDS,AIQ,Delhi,ST,2024,7432,10200,85
+neet_cutoffs#151,Maulana Azad Medical College,MBBS,AIQ,Delhi,EWS,2023,1307,1730,15
+neet_cutoffs#152,Maulana Azad Medical College,MBBS,AIQ,Delhi,EWS,2024,1375,1680,50
+neet_cutoffs#153,Maulana Azad Medical College,MBBS,AIQ,Delhi,OBC,2023,1611,2101,30
+neet_cutoffs#154,Maulana Azad Medical College,MBBS,AIQ,Delhi,OBC,2024,1610,2040,50
+neet_cutoffs#155,Maulana Azad Medical College,MBBS,AIQ,Delhi,Open,2023,981,1236,30
+neet_cutoffs#156,Maulana Azad Medical College,MBBS,AIQ,Delhi,Open,2024,887,1200,85
+neet_cutoffs#157,Maulana Azad Medical College,MBBS,AIQ,Delhi,SC,2023,2457,3213,50
+neet_cutoffs#158,Maulana Azad Medical College,MBBS,AIQ,Delhi,SC,2024,2544,3120,50
+neet_cutoffs#159,Maulana Azad Medical College,MBBS,AIQ,Delhi,ST,2023,3059,4202,15
+neet_cutoffs#160,Maulana Azad Medical College,MBBS,AIQ,Delhi,ST,2024,3030,4080,30
+neet_cutoffs#161,Medical College Kolkata,BDS,State,West Bengal,EWS,2023,13647,18745,85
+neet_cutoffs#162,Medical College Kolkata,BDS,State,West Bengal,EWS,2024,13834,18199,50
+neet_cutoffs#163,Medical College Kolkata,BDS,State,West Bengal,OBC,2023,18400,22763,85
+neet_cutoffs#164,Medical College Kolkata,BDS,State,West Bengal,OBC,2024,17821,22100,50
+neet_cutoffs#165,Medical College Kolkata,BDS,State,West Bengal,Open,2023,9813,13390,30
+neet_cutoffs#166,Medical College Kolkata,BDS,State,West Bengal,Open,2024,9877,13000,85
+neet_cutoffs#167,Medical College Kolkata,BDS,State,West Bengal,SC,2023,27525,34814,50
+neet_cutoffs#168,Medical College Kolkata,BDS,State,West Bengal,SC,2024,26643,33800,85
+neet_cutoffs#169,Medical College Kolkata,BDS,State,West Bengal,ST,2023,37138,45526,30
+neet_cutoffs#170,Medical College Kolkata,BDS,State,West Bengal,ST,2024,32190,44200,30
+neet_cutoffs#171,Medical College Kolkata,MBBS,State,West Bengal,EWS,2023,5444,7498,50
+neet_cutoffs#172,Medical College Kolkata,MBBS,State,West Bengal,EWS,2024,5711,7279,85
+neet_cutoffs#173,Medical College Kolkata,MBBS,State,West Bengal,OBC,2023,6814,9105,85
+neet_cutoffs#174,Medical College Kolkata,MBBS,State,West Bengal,OBC,2024,7148,8840,50
+neet_cutoffs#175,Medical College Kolkata,MBBS,State,West Bengal,Open,2023,4306,5356,50
+neet_cutoffs#176,Medical College Kolkata,MBBS,State,West Bengal,Open,2024,3990,5200,15
+neet_cutoffs#177,Medical College Kolkata,MBBS,State,West Bengal,SC,2023,10057,13925,85
+neet_cutoffs#178,Medical College Kolkata,MBBS,State,West Bengal,SC,2024,10214,13520,120
+neet_cutoffs#179,Medical College Kolkata,MBBS,State,West Bengal,ST,2023,13324,18210,15
+neet_cutoffs#180,Medical College Kolkata,MBBS,State,West Bengal,ST,2024,13115,17680,50
+neet_cutoffs#181,NRS Medical College,BDS,State,West Bengal,EWS,2023,24327,32445,15
+neet_cutoffs#182,NRS Medical College,BDS,State,West Bengal,EWS,2024,24873,31500,50
+neet_cutoffs#183,NRS Medical College,BDS,State,West Bengal,OBC,2023,30408,39397,30
+neet_cutoffs#184,NRS Medical College,BDS,State,West Bengal,OBC,2024,28900,38250,30
+neet_cutoffs#185,NRS Medical College,BDS,State,West Bengal,Open,2023,17524,23175,120
+neet_cutoffs#186,NRS Medical College,BDS,State,West Bengal,Open,2024,18256,22500,120
+neet_cutoffs#187,NRS Medical College,BDS,State,West Bengal,SC,2023,46592,60255,120
+neet_cutoffs#188,NRS Medical College,BDS,State,West Bengal,SC,2024,44048,58500,30
+neet_cutoffs#189,NRS Medical College,BDS,State,West Bengal,ST,2023,61564,78795,30
+neet_cutoffs#190,NRS Medical College,BDS,State,West Bengal,ST,2024,61246,76500,85
+neet_cutoffs#191,NRS Medical College,MBBS,State,West Bengal,EWS,2023,9503,12978,85
+neet_cutoffs#192,NRS Medical College,MBBS,State,West Bengal,EWS,2024,10323,12600,85
+neet_cutoffs#193,NRS Medical College,MBBS,State,West Bengal,OBC,2023,12103,15759,50
+neet_cutoffs#194,NRS Medical College,MBBS,State,West Bengal,OBC,2024,11147,15300,15
+neet_cutoffs#195,NRS Medical College,MBBS,State,West Bengal,Open,2023,7262,9270,50
+neet_cutoffs#196,NRS Medical College,MBBS,State,West Bengal,Open,2024,7022,9000,85
+neet_cutoffs#197,NRS Medical College,MBBS,State,West Bengal,SC,2023,19160,24102,50
+neet_cutoffs#198,NRS Medical College,MBBS,State,West Bengal,SC,2024,17967,23400,30
+neet_cutoffs#199,NRS Medical College,MBBS,State,West Bengal,ST,2023,24320,31518,30
+neet_cutoffs#200,NRS Medical College,MBBS,State,West Bengal,ST,2024,24942,30600,120

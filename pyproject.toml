@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neet-rag-counsellor"
+version = "0.1.0"
+description = "Private, locally hosted RAG assistant for NEET UG counselling (CGPRR take-home)."
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi==0.115.6",
+    "uvicorn[standard]==0.34.0",
+    "ollama==0.4.7",
+    "numpy==2.2.1",
+    "pandas==2.2.3",
+    "rich==13.9.4",
+    "httpx==0.28.1",
+    "pydantic==2.10.4",
+]
+
+[project.scripts]
+neet-rag = "neet_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

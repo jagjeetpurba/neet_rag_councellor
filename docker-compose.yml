@@ -1,0 +1,31 @@
+# CPU fallback composition: Ollama (model server) + the RAG app.
+# On the in-office GPU, replace the `ollama` service with a vLLM container
+# (same Qwen2.5-7B weights) and point OLLAMA/LLM_HOST at it.
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    # Pull models on first start.
+    command: >
+      sh -c "ollama serve & sleep 3;
+             ollama pull qwen2.5:7b;
+             ollama pull nomic-embed-text; wait"
+
+  app:
+    build: .
+    depends_on:
+      - ollama
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - ./index:/app/index
+    ports:
+      - "8000:8000"
+    entrypoint: >
+      sh -c "python -m neet_rag.cli ingest && uvicorn neet_rag.app:app --host 0.0.0.0 --port 8000"
+
+volumes:
+  ollama_data:
